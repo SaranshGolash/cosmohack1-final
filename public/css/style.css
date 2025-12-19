@@ -1095,17 +1095,6 @@ h3,
   width: 8rem;
 }
 
-To fix the styling and make it cleaner (removing the messy inline styles from your EJS), you should add these specific classes to the bottom of your CSS file.
-
-1. Update public/css/style.css
-Add this code to the very end of your CSS file. It handles the video aspect ratio, the "mini-task" box, the checkbox, and the success message for both Light and Dark themes.
-
-CSS
-
-/* =========================================
-   Gamification & Task Page Specific Styles
-   ========================================= */
-
 /* Back Button Link */
 .back-link {
   display: inline-flex;
